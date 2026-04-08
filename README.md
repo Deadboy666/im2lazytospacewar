@@ -1,5 +1,8 @@
 ***Spacewars By Appid.***
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/Deadboy666/im2lazytospacewar/refs/heads/main/im2lazytospacewar.sh" | bash
+wget "https://raw.githubusercontent.com/Deadboy666/im2lazytospacewar/refs/heads/main/im2lazytospacewar.sh"
+chmod +x im2lazytospacewar.sh
+./im2lazytospacewar.sh
+
 ```
