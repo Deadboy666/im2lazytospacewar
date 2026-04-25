@@ -10,7 +10,6 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
             else
                     cd $SLSsteamConfigDir/
                 fi
-                    echo "" &> /dev/null
                 }
 
 
