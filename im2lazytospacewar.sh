@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -eu
 
 SLSsteamConfigDir=$HOME/.config/SLSsteam
 FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
@@ -12,11 +11,7 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
                 fi
                 }
 
-
-    im2lazy2spacewar(){
         whereSLSsteamconfig
         read -rp "Enter AppID: " appid
         sed -i "/^FakeAppIds:/a\\  $appid: 480" config.yaml
         sed -i "s/\\\$appid/$appid/" config.yaml
-        }
-    im2lazy2spacewar
