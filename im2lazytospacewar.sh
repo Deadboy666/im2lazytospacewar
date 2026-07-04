@@ -12,6 +12,6 @@ FlatpakSLSsteamConfigDir=$HOME/.var/app/com.valvesoftware.Steam/.config/SLSsteam
                 }
 
         whereSLSsteamconfig
-        read -rp "Enter AppID: " appid & wait
+        read -rp "Enter AppID: " appid
         sed -i "/^FakeAppIds:/a\\  $appid: 480" config.yaml
         sed -i "s/\\\$appid/$appid/" config.yaml
