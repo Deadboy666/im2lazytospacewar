@@ -1,5 +1,4 @@
 ***Spacewars By Appid.***
 
-```bash
-curl -fsSL "https://raw.githubusercontent.com/Deadboy666/im2lazytospacewar/refs/heads/main/im2lazytospacewar.sh" | bash
-```
+Instructions Download Script Mark As Executable then write in the appid.
+the script uses sed to write in the appid in the format of keymap that the yaml reads.
